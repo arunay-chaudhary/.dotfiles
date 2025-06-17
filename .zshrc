@@ -91,6 +91,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# Match dotfiles even when no dot
+setopt globdots
+
 # Check archlinux plugin commands here
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux
 
