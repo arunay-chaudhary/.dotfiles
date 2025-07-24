@@ -120,4 +120,4 @@ setopt appendhistory
 export PATH=/usr/lib/openmpi/bin:$PATH
 export LD_LIBRARY_PATH=/usr/lib/openmpi/lib:$LD_LIBRARY_PATH
 export MANPATH=/usr/share/man/openmpi:$MANPATH
-
+export PATH="$HOME/bin:$PATH"
